@@ -1,0 +1,11 @@
+# Numele proiectului tău
+PROJECT_NAME           = "Sisteme de Testare - Lab 7"
+
+# Versiunea (poți lăsa gol sau pune 1.0)
+PROJECT_NUMBER         = 1.0
+
+# Unde se află codul sursă (punctul înseamnă folderul curent)
+INPUT                  = .
+
+# Ce tip de fișiere să scaneze (asigură-te că include Python)
+FILE_PATTERNS          = *.py
