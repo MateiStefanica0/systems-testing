@@ -23,7 +23,7 @@ jobs:
           doxygen Doxyfile
 
       - name: Upload Documentation Artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: Doxygen-HTML-Docs # Numele arhivei pe care o vei descărca
           path: laboratories/cicd-documentation/html/ # Calea către folderul generat
