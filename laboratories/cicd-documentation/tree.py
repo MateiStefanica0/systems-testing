@@ -65,6 +65,12 @@ class Tree:
         self.root = None
 
     def printTree(self):
+        """!
+        Realizeaza parcurgerea in inordine a arborelui (Stanga, Radacina, Dreapta).
+        
+        @param node: Referinta catre nodul curent de la care incepe parcurgerea.
+        @return: Nu returneaza nimic, afiseaza valorile direct in consola.
+        """
         if self.root is not None:
             self._printInorderTree(self.root)
 
